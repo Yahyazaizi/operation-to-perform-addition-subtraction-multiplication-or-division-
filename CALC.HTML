@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-image:url(jo.jpg); text-align: center;color: white;}
+        input:hover{background-color: bisque; border-radius: 30%;}
+        input{background-color: bisque; border-radius: 20%;}
+        select{width: 175px; background-color: rgb(0, 225, 255);}
+        button:hover{border: 10px solid navajowhite;}
+        form{border:10PX  solid lawngreen ;border-radius: 50%;width: 700PX; translate: 300PX 0PX; border:dotted ; }
+    </style>
+</head>
+<body>
+    <form action="calcphp.php" method="post">
+        <br>
+    <h2>numero 1</h2>
+    <input type="number" name="numero1">
+    
+   
+    <br>
+    <h2>numero 2</h2>
+    <br>
+    <input type="number" name="numero2">
+    <br>
+    <br>
+    <select name="op">
+        <option value="+">+</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="-">-</option>
+    </select>
+    <br>
+    <br>
+   <button>RESULTAT</button>
+    </form>
+
+
+    
+</body>
+</html>
